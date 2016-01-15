@@ -6,11 +6,19 @@ using System.Web;
 
 namespace CaixaATM.Models
 {
+    // flag para facilitar nas views quais dados exibir de tipo de conta
+    public enum TipoDeConta
+    {
+        CORRENTE, POUPANCA
+    }
+
     public class Conta
     {        
         public int ContaID { get; set; }
         public double Saldo { get; set; }
         public double SaldoProv { get; set; } //Saldo provisório
+
+        public TipoDeConta TipoDeConta { get; set; }
 
         public int ClienteId { get; set; }
         public virtual Cliente Cliente { get; set; }

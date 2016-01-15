@@ -162,11 +162,12 @@
     <Compile Include="Controllers\ClientesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="DAL\SampleData.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\CaixaATMDBContext.cs" />
+    <Compile Include="DAL\CaixaATMDBContext.cs" />
     <Compile Include="Models\Cliente.cs" />
     <Compile Include="Models\Conta.cs" />
     <Compile Include="Models\IdentityModels.cs" />

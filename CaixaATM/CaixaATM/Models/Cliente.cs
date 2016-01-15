@@ -5,6 +5,12 @@ using System.Web;
 
 namespace CaixaATM.Models
 {
+    // flag para ajudar a decidir que tipo de conta estamos lidando
+    public enum TipoDeCliente
+    {
+        PESSOA_FISCA, PESSOA_JURIDICA
+    }
+
     public class Cliente
     {
         public int ClienteID { get; set; }
@@ -14,7 +20,9 @@ namespace CaixaATM.Models
         public string Telefone2 { get; set; }
         public string Email { get; set; }
 
-        public int ContaId { get; set; }
+        public TipoDeCliente TipoDeCliente { get; set; }
+
+        //lista de contas que o cliente tem
         public virtual List<Conta> Contas { get; set; }
     }
 }
