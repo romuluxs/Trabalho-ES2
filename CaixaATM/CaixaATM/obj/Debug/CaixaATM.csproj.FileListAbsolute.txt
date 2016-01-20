@@ -1,0 +1,110 @@
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\CaixaATM.dll.config
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\CaixaATM.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\CaixaATM.pdb
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Antlr3.Runtime.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\EntityFramework.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\EntityFramework.SqlServer.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Microsoft.Owin.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Newtonsoft.Json.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Owin.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\System.Web.Helpers.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\System.Web.Mvc.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\System.Web.Optimization.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\System.Web.Razor.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\System.Web.WebPages.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\System.Web.WebPages.Razor.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\WebGrease.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\System.Web.Helpers.xml
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\System.Web.Mvc.xml
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\System.Web.Optimization.xml
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\System.Web.Razor.xml
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\System.Web.WebPages.xml
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\System.Web.WebPages.Razor.xml
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Antlr3.Runtime.pdb
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Newtonsoft.Json.xml
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\EntityFramework.xml
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\EntityFramework.SqlServer.xml
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Microsoft.Owin.xml
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.xml
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\obj\Debug\CaixaATM.csprojResolveAssemblyReference.cache
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\obj\Debug\CaixaATM.dll
+C:\Users\Romulo\Documents\Visual Studio 2013\Projects\CaixaATM\CaixaATM\obj\Debug\CaixaATM.pdb
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\CaixaATM.dll.config
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\CaixaATM.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\CaixaATM.pdb
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Antlr3.Runtime.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\EntityFramework.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\EntityFramework.SqlServer.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Microsoft.Owin.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Newtonsoft.Json.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Owin.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\System.Web.Helpers.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\System.Web.Mvc.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\System.Web.Optimization.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\System.Web.Razor.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\System.Web.WebPages.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\System.Web.WebPages.Razor.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\WebGrease.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\System.Web.Helpers.xml
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\System.Web.Mvc.xml
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\System.Web.Optimization.xml
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\System.Web.Razor.xml
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\System.Web.WebPages.xml
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\System.Web.WebPages.Razor.xml
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Antlr3.Runtime.pdb
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Newtonsoft.Json.xml
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\EntityFramework.xml
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\EntityFramework.SqlServer.xml
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Microsoft.Owin.xml
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.xml
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\obj\Debug\CaixaATM.csprojResolveAssemblyReference.cache
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\obj\Debug\CaixaATM.dll
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\obj\Debug\CaixaATM.pdb
