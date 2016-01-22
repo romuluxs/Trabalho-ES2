@@ -108,3 +108,7 @@ C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\bin\Microsoft.Ow
 C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\obj\Debug\CaixaATM.csprojResolveAssemblyReference.cache
 C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\obj\Debug\CaixaATM.dll
 C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\obj\Debug\CaixaATM.pdb
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\obj\Debug\CaixaATM.Migrations.AddEnderecoToCliente.resources
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\obj\Debug\CaixaATM.csproj.GenerateResource.Cache
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\obj\Debug\CaixaATM.Migrations.ChangeClienteModel.resources
+C:\Users\Romulo\Documents\GitHub\Trabalho-ES2\CaixaATM\CaixaATM\obj\Debug\CaixaATM.Migrations.ChangeFieldsOfCliente.resources

@@ -13,7 +13,7 @@ namespace CaixaATM
         protected void Application_Start()
         {
             // Metodo que chama o script para popular o banco de dados
-            System.Data.Entity.Database.SetInitializer(new CaixaATM.DAL.SampleData());
+            System.Data.Entity.Database.SetInitializer(new CaixaATM.Models.SampleData());
 
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
