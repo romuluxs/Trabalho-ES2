@@ -16,7 +16,12 @@ namespace CaixaATM.DAL
                 new Cliente 
                 { 
                     Nome = "Bruce Wayne", 
-                    Endereco = "Gothan City", 
+                    Endereco = new Endereco {
+                        Rua = "Roger Dogson Street",
+                        Cep = "242891",
+                        Cidade = "Gothan City",
+                        Referencia = "",
+                    }, 
                     Email = "wayne@gmail.com", 
                     Telefone1 = "(21)98755-2039", 
                     Telefone2 ="(21)96543-6243", 
@@ -38,7 +43,12 @@ namespace CaixaATM.DAL
                 new Cliente 
                 { 
                     Nome = "Mulher Maravilha", 
-                    Endereco = "Ilha das Amazonas", 
+                    Endereco = new Endereco {
+                        Rua = "Tonwaer Island",
+                        Cep = "90221",
+                        Cidade = "Laruska",
+                        Referencia = "",
+                    }, 
                     Email = "wonder_woman@gmail.com", 
                     Telefone1 = "(11)89856-6524", 
                     Telefone2 ="(11)85799-6152" , 
@@ -54,7 +64,12 @@ namespace CaixaATM.DAL
                 new Cliente 
                 { 
                     Nome = "Clark Kent", 
-                    Endereco = "Metropolis", 
+                    Endereco = new Endereco {
+                        Rua = "Park Avenue",
+                        Cep = "14567",
+                        Cidade = "New York",
+                        Referencia = "",
+                    },
                     Email = "superman@gmail.com", 
                     Telefone1 = "(34)10283-9128", 
                     Telefone2 ="(22)98476-6532" , 
@@ -70,7 +85,12 @@ namespace CaixaATM.DAL
                 new Cliente 
                 { 
                     Nome = "Barry Allan", 
-                    Endereco = "Central City", 
+                    Endereco = new Endereco {
+                        Rua = "Rosalin Street",
+                        Cep = "10056",
+                        Cidade = "São Francisco",
+                        Referencia = "",
+                    },
                     Email = "the_flash@justiceleague.com", 
                     Telefone1 = "(21)98765-4377", 
                     Telefone2 = "(32)97745-3427" , 
@@ -86,7 +106,12 @@ namespace CaixaATM.DAL
                 new Cliente 
                 { 
                     Nome = "Tony Stark", 
-                    Endereco = "California", 
+                    Endereco = new Endereco {
+                        Rua = "Columbus Circle",
+                        Cep = "10019",
+                        Cidade = "New York",
+                        Referencia = "",
+                    }, 
                     Email = "ironman@avengers.com", 
                     Telefone1 = "(31)93847-6253", 
                     Telefone2 = "(32)79564-9817" , 
@@ -113,7 +138,12 @@ namespace CaixaATM.DAL
                 new Cliente 
                 { 
                     Nome = "Peter Parker", 
-                    Endereco = "New York", 
+                    Endereco = new Endereco {
+                        Rua = "Fifth Avenue",
+                        Cep = "10010",
+                        Cidade = "New York",
+                        Referencia = "",
+                    }, 
                     Email = "spider_man@gmail.com", 
                     Telefone1 = "(31)9485-6732", 
                     Telefone2 = "(32)87634-1982" , 
@@ -129,7 +159,12 @@ namespace CaixaATM.DAL
                 new Cliente 
                 { 
                     Nome = "Natasha", 
-                    Endereco = "Moscou", 
+                    Endereco = new Endereco {
+                        Rua = "Patruska Avenue",
+                        Cep = "240067",
+                        Cidade = "Moscou",
+                        Referencia = "",
+                    }, 
                     Email = "viuva_negra@avengers.com", 
                     Telefone1 = "(31)9485-6732", 
                     Telefone2 = "(32)87634-1982" , 
@@ -145,7 +180,12 @@ namespace CaixaATM.DAL
                 new Cliente 
                 { 
                     Nome = "Bruce Banner", 
-                    Endereco = "Cleveland", 
+                    Endereco = new Endereco {
+                        Rua = "Franklin Roosevelt Street",
+                        Cep = "10023",
+                        Cidade = "Los Angeles",
+                        Referencia = "",
+                    },
                     Email = "hulk@avengers.com", 
                     Telefone1 = "(31)9485-6732", 
                     Telefone2 = "(32)87634-1982" , 
@@ -163,7 +203,7 @@ namespace CaixaATM.DAL
             clientes.ForEach(c => context.Clientes.Add(c));
             context.SaveChanges();
 
-            base.Seed(context);
+            //base.Seed(context);
         }
     }
 }

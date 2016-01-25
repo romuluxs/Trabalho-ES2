@@ -15,8 +15,11 @@ namespace CaixaATM.Models
     public class Conta
     {        
         public int ContaID { get; set; }
+
+        [Required]
         public double Saldo { get; set; }
-        public double SaldoProv { get; set; } //Saldo provisório
+
+        public double SaldoProv { get; set; }
 
         public TipoDeConta TipoDeConta { get; set; }
 

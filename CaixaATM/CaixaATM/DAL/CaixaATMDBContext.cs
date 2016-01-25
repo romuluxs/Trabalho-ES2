@@ -1,10 +1,12 @@
-﻿using System;
+﻿using CaixaATM.Models;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
 using System.Web;
 
-namespace CaixaATM.Models
+namespace CaixaATM.DAL
 {
     public class CaixaATMDBContext : DbContext
     {
@@ -13,6 +15,7 @@ namespace CaixaATM.Models
 
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Conta> Contas { get; set; }
+        public DbSet<Endereco> Enderecos { get; set; }
 
     }
 }
