@@ -35,7 +35,10 @@
             @Html.DisplayFor(modelItem => item.Nome)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Endereco)
+            @Html.DisplayFor(modelItem => item.Endereco.Rua),
+            @Html.DisplayFor(modelItem => item.Endereco.Cidade),
+            @Html.DisplayFor(modelItem => item.Endereco.Numero),
+            @Html.DisplayFor(modelItem => item.Endereco.Cep)          
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Telefone1)
