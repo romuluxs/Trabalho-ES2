@@ -23,7 +23,11 @@
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Endereco)
+            @Html.DisplayFor(model => model.Endereco.Rua),
+            @Html.DisplayFor(model => model.Endereco.Cidade),
+            @Html.DisplayFor(model => model.Endereco.Numero),
+            @Html.DisplayFor(model => model.Endereco.Cep)
+            @Html.DisplayFor(model => model.Endereco.Referencia)
         </dd>
 
         <dt>
