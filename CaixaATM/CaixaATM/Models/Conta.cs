@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
@@ -17,10 +18,13 @@ namespace CaixaATM.Models
         public int ContaID { get; set; }
 
         [Required]
+        [DisplayName("Saldo")]
         public double Saldo { get; set; }
 
+        [DisplayName("Saldo provisório")]
         public double SaldoProv { get; set; }
 
+        [DisplayName("Tipo de conta")]
         public TipoDeConta TipoDeConta { get; set; }
 
         public int ClienteId { get; set; }
