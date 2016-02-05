@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewBag.Title = "Transferência";
+}
+
+<h2 align="center">Transferência</h2>
+
+<div class="container">
+    <h2>Favorecidos</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nome</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fav1</td>
+                <td align="right"><a href="@Url.Action("TransDetalhes")"> <button class="btn-success btn-lg">Ok</button> </a></td>
+            </tr>
+            <tr>
+                <td>Fav2</td>
+                <td align="right"><a href="@Url.Action("TransDetalhes")"> <button class="btn-success btn-lg">Ok</button> </a></td>
+            </tr>
+            <tr>
+                <td>Fav3</td>
+                <td align="right"><a href="@Url.Action("TransDetalhes")"> <button class="btn-success btn-lg">Ok</button> </a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="container">
+    <h2>Outro Favorecido</h2>
+    <table class="table-condensed">
+        <tbody>
+            <tr>
+                <td>Agência</td>
+                <td><input type="text" class="form-control" id="agencia"></td>
+            </tr>
+            <tr>
+                <td>Conta</td>
+                <td><input type="text" class="form-control" id="conta"></td>
+            </tr>
+            <tr>
+                <td>CPF</td>
+                <td><input type="text" class="form-control" id="cpf"></td>
+            </tr>
+            <tr>
+                <td>Nome</td>
+                <td><input type="text" class="form-control" id="nome"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="container" align="center" style="margin-top: 5%">
+    <a href="@Url.Action("Autenticacao")" class="elements btn btn-success btn-lg">Confirma</a>
+    <a href="@Url.Action("Autenticacao")" class="elements btn btn-success btn-lg" style="margin-left: 20%">Confirma e adiciona</a>
+    <a href="@Url.Action("Index", "Home")" class="elements btn btn-primary btn-lg" style="margin-left: 20%">Voltar</a>
+</div>

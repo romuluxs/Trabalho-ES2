@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "PgmtoCodigo";
+}
+
+<h2 align="center">Pagamentos</h2>
+
+<div class="form-group" style="font-size:large; margin-top:10%" align="center">
+    <label for="cod">Digite o código do boleto</label>
+    <input type="text" class="form-control" id="cod">
+</div>
+
+<div class="form-group" style="font-size:large" align="center">
+    <label for="data">Data do pagamento</label>
+    <input type="date" class="form-control" id="data">
+</div>
+
+<p align="center" style="color:red">Data de pagamento inválida</p>
+
+<div class="form-group" style="font-size:large" align="center">
+    <label for="desc">Descrição adicional</label>
+    <input type="text" class="form-control" id="desc">
+</div>
+
+<div align="center" style="margin-top: 10%">
+    <a href="@Url.Action("PgmtoVerifica")"> <button class="btn-success btn-lg">Confirmar</button> </a>
+    <a href="@Url.Action("Index", "Home")"> <button class="btn-primary btn-lg" style="margin-left: 50%;">Voltar</button> </a>
+</div>

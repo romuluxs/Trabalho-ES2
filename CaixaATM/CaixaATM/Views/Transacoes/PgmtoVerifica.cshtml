@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Verificação do Pagamento";
+}
+
+<h2 align="center">Verificação do Pagamento</h2>
+
+<div style="margin-top: 10%; font-size:large;">
+    <p>Titular da Conta: ###</p>
+    <p>Conta: ###</p>
+    <p>Número do pagamento: ###</p>
+    <p>Valor do pagamento: ###</p>
+    <p>Data de agendamento do pagamento: ###</p>
+    <p>Data de realização do pagamento: ###</p>
+</div>
+
+<div align="center" style="margin-top: 10%">
+    <a href="@Url.Action("PgmtoConfirma")"> <button class="btn-success btn-lg">Confirmar</button> </a>
+    <a href="@Url.Action("Index", "Home")"> <button class="btn-primary btn-lg" style="margin-left: 50%;">Voltar</button> </a>
+</div>
+

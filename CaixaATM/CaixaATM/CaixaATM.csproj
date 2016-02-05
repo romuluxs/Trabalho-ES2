@@ -166,6 +166,7 @@
     <Compile Include="Controllers\ContasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\TransacoesController.cs" />
     <Compile Include="DAL\SampleData.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -259,6 +260,29 @@
     <Content Include="Views\Contas\Details.cshtml" />
     <Content Include="Views\Contas\Edit.cshtml" />
     <Content Include="Views\Contas\Index.cshtml" />
+    <Content Include="Views\Transacoes\Autenticacao.cshtml" />
+    <Content Include="Views\Transacoes\Cheque.cshtml" />
+    <Content Include="Views\Transacoes\ConfInvestimento.cshtml" />
+    <Content Include="Views\Transacoes\ConfirmacaoSaque.cshtml" />
+    <Content Include="Views\Transacoes\Deposito.cshtml" />
+    <Content Include="Views\Transacoes\ExibicaoSaldo.cshtml" />
+    <Content Include="Views\Transacoes\Extrato.cshtml" />
+    <Content Include="Views\Transacoes\ExtratoPeriodo.cshtml" />
+    <Content Include="Views\Transacoes\Index.cshtml" />
+    <Content Include="Views\Transacoes\Investimento.cshtml" />
+    <Content Include="Views\Transacoes\Pagamentos.cshtml" />
+    <Content Include="Views\Transacoes\PgmtoCodigo.cshtml" />
+    <Content Include="Views\Transacoes\PgmtoConfirma.cshtml" />
+    <Content Include="Views\Transacoes\PgmtoVencido.cshtml" />
+    <Content Include="Views\Transacoes\PgmtoVerifica.cshtml" />
+    <Content Include="Views\Transacoes\PgmtoVlrVenc.cshtml" />
+    <Content Include="Views\Transacoes\Rendimento.cshtml" />
+    <Content Include="Views\Transacoes\Saldo.cshtml" />
+    <Content Include="Views\Transacoes\Saque.cshtml" />
+    <Content Include="Views\Transacoes\TransConfirma.cshtml" />
+    <Content Include="Views\Transacoes\TransDetalhes.cshtml" />
+    <Content Include="Views\Transacoes\Transferencia.cshtml" />
+    <Content Include="Views\Transacoes\TransVerifica.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
