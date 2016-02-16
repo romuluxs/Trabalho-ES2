@@ -1,0 +1,30 @@
+﻿@model LoginBancoTeste.Models.Conta
+@{
+    ViewBag.Title = "Opcoes";
+    Layout = "~/Views/Shared/_TransacoesLayout.cshtml";
+}
+
+<div class="panel panel-info">
+    <div class="panel-heading">
+        <h2 class="panel-title">Operações</h2>
+    </div>
+    <div class="panel-body">
+
+        <div class="row">
+            <div class="col-lg-6">
+                @Html.ActionLink("Saldo", "Saldo", new { numero = Model.Numero }, new { @class = "btn btn-lg btn-primary btn-block" })               
+                @Html.ActionLink("Saque", "Saque", new { numero = Model.Numero }, new { @class = "btn btn-lg btn-primary btn-block" })
+                @Html.ActionLink("Deposito", "Deposito", new { id = Model.Numero }, new { @class = "btn btn-lg btn-primary btn-block" })
+            </div>
+            <div class="col-lg-6">                
+                @Html.ActionLink("Transferencia", "Transferencia", new { numero = Model.Numero }, new { @class = "btn btn-lg btn-primary btn-block" })
+                @Html.ActionLink("Investimentos", "Investimentos", new { numero = Model.Numero }, new { @class = "btn btn-lg btn-primary btn-block" })
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<p>
+    @Html.ActionLink("Voltar", "Index", new { id = Model.Cliente.Id }, new { @class = "btn btn-default" } )
+</p>

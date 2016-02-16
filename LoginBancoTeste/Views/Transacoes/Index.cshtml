@@ -1,0 +1,37 @@
+﻿@model LoginBancoTeste.Models.Cliente
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_TransacoesLayout.cshtml";    
+}
+
+@if (!User.Identity.IsAuthenticated)
+{
+    <div class="jumbotron">
+            <p class="lead">Acesse sua conta conta realizando o login</p>
+            <p>@Html.ActionLink("Sign in", "Formulario", "Autenticador", null, new { @class = "btn btn-primary", @role = "button" })</p>
+        </div>
+}
+
+@if (Model != null)
+{
+    <p>Bem vindo, @Model.Nome</p>
+
+    <h3>Selecione a conta que deseja operar</h3>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Numero</th>
+                <th>Tipo</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Contas)
+            {
+                <tr>
+                    <td>@Html.ActionLink(string.Concat(item.Numero), "Opcoes", new { numero = item.Numero }, new { @class = "list-group-item" })</td>
+                    <td>@Html.DisplayFor(modelItem => item.TipoDeConta)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
