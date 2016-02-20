@@ -34,14 +34,17 @@
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Create" class="btn btn-default" />
+                <input type="submit" value="Create" class="btn btn-success" />
             </div>
         </div>
     </div>
 }
 
 <div>
-    @Html.ActionLink("Voltar", "Details", "Clientes", new { id = Model.ClienteId }, null)
+    <a href="@Url.Action("Details", "Clientes", new { id = Model.ClienteId })" class="btn btn-sm btn-default">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        Voltar
+    </a>
 </div>
 
 @section Scripts {

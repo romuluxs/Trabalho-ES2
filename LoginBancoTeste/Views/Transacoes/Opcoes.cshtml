@@ -26,5 +26,8 @@
 </div>
 
 <p>
-    @Html.ActionLink("Voltar", "Index", new { id = Model.Cliente.Id }, new { @class = "btn btn-default" } )
+    <a href="@Url.Action("Index", "Transacoes", new { id = Model.Cliente.Id })" class="btn btn-default">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        Voltar
+    </a>
 </p>

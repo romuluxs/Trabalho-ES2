@@ -4,7 +4,7 @@
 
 <div class="jumbotron">
     <h1>Seja bem vindo!</h1>
-    <p class="lead">Para poder gerenciar os clientes é preciso se logar no sistema.</p>
+    <p class="lead">Este é o ambiente administrativo do caixa ATM</p>
     @*@if (!User.Identity.IsAuthenticated)
     {
         <p>@Html.ActionLink("Sign in", "Formulario", "Autenticador", null, new { @class = "btn btn-primary btn-lg" })</p>
