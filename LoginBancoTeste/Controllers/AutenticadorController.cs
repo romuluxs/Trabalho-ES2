@@ -23,25 +23,30 @@ namespace LoginBancoTeste.Controllers
         // Método para realizar o login do cliente no sistema
         public ActionResult Entrar(LoginViewModel usuario)
         {
-            Cliente cliente = this.db.Clientes.Where(s => usuario.Username == s.Username).SingleOrDefault();
+            if (ModelState.IsValid)
+            {
+                Cliente cliente = this.db.Clientes.Where(s => usuario.Username == s.Username).SingleOrDefault();
 
-            if (cliente == null)
-            {
-                ViewBag.Mensagem = "Cliente inexistente ou não cadastrado!";
-                return View("Formulario");
+                if (cliente == null)
+                {
+                    ViewBag.Mensagem = "Cliente inexistente ou não cadastrado!";
+                    return View("Formulario");
+                }
+
+                if (usuario.Username != null && usuario.Password != null &&
+                    usuario.Username.Equals(cliente.Username) && usuario.Password.Equals(cliente.Password))
+                {
+                    FormsAuthentication.SetAuthCookie(cliente.Username, false);
+                    return RedirectToAction("Index", "Transacoes", new { id = cliente.Id });
+                }
+                else
+                {
+                    ViewBag.Mensagem = "Verifique se os dados estão corretos";
+                    return View("Formulario", usuario);
+                }
             }
 
-            if (usuario.Username != null && usuario.Password != null &&
-                usuario.Username.Equals (cliente.Username) && usuario.Password.Equals (cliente.Password))
-            {
-                FormsAuthentication.SetAuthCookie(cliente.Username, false);
-                return RedirectToAction("Index", "Transacoes", new { id = cliente.Id });
-            }
-            else
-            {
-                ViewBag.Mensagem = "Senha incorreta!";
-                return View("Formulario");
-            }
+            return View(usuario);
         }
 
         // método que faz logout

@@ -1,9 +1,62 @@
-﻿
+﻿@model LoginBancoTeste.Models.ViewModels.TransferenciaViewModel
 @{
     ViewBag.Title = "Transferencia";
     Layout = "~/Views/Shared/_TransacoesLayout.cshtml";
 }
 
-<h2>Transferencia</h2>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class="text-danger" })
+    @Html.HiddenFor(model => model.NumeroConta)
 
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h2 class="panel-title">Transferencia</h2>
+        </div>
+        <div class="panel-body">
+                    
+            <div class="form-horizontal">
 
+                <div class="form-group">
+                    <label class="control-label col-md-2">Destino:</label>
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-sort"></i></span>
+                        @Html.EditorFor(model => model.NumeroContaDestino, new { htmlAttributes = new { @class = "form-control", @placeholder = "Conta Destino" } })                        
+                    </div>
+                    @Html.ValidationMessageFor(model => model.NumeroContaDestino, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2">Valor: </label>
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-usd"></i></span>
+                        @Html.EditorFor(model => model.Valor, new { htmlAttributes = new { @class = "form-control", @placeholder = "Valor" } })                        
+                    </div>
+                    @Html.ValidationMessageFor(model => model.Valor, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-md-2">
+                        <button type="submit" class="btn btn-success" value="Salvar">
+                            <span class="glyphicon glyphicon-ok"></span>
+                            Ok
+                        </button>
+                    </div>
+                </div>
+            </div> <!-- form-control -->
+
+        </div><!-- panel-body Fim -->
+    </div>
+}
+
+<p>
+    <a href="@Url.Action("Opcoes", "Transacoes", new { numero = Model.NumeroConta })" class="btn btn-default">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        Voltar
+    </a>
+</p>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

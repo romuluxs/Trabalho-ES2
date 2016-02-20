@@ -9,10 +9,13 @@
         <h2 class="panel-title">Saldo</h2>
     </div>
     <div class="panel-body">
-        @Html.DisplayFor(model => model.Saldo)
+        R$: @Html.DisplayFor(model => model.Saldo)
     </div>
 </div>
 
 <p>
-    @Html.ActionLink("Voltar", "Opcoes", new { numero = Model.Numero }, new { @class = "btn btn-default" } )
+    <a href="@Url.Action("Opcoes", "Transacoes", new { numero = Model.Numero })" class="btn btn-default">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        Voltar
+    </a>
 </p>

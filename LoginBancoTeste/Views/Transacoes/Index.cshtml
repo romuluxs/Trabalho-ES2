@@ -8,11 +8,16 @@
 {
     <div class="jumbotron">
             <p class="lead">Acesse sua conta conta realizando o login</p>
-            <p>@Html.ActionLink("Sign in", "Formulario", "Autenticador", null, new { @class = "btn btn-primary", @role = "button" })</p>
+            <p>
+                <a class="btn btn-primary" href="@Url.Action("Formulario","Autenticador")">
+                    <span class="glyphicon glyphicon-off"></span>
+                    Sign in
+                </a>
+            </p>
         </div>
 }
 
-@if (Model != null)
+@if(Model != null)
 {
     <p>Bem vindo, @Model.Nome</p>
 
@@ -27,8 +32,12 @@
         <tbody>
             @foreach (var item in Model.Contas)
             {
-                <tr onclick="location.href='@Url.Action("Opcoes", "Transacoes", new { numero = item.Numero })'">
-                    <td>@Html.DisplayFor(modelItem => item.Numero)</td>
+                <tr>
+                    <td>
+                        <a class="btn btn-block" href="@Url.Action("Opcoes", "Transacoes", new { numero = item.Numero })" role="button">
+                            @Html.DisplayFor(modelItem => item.Numero)
+                        </a>                        
+                    </td>
                     <td>@Html.DisplayFor(modelItem => item.TipoDeConta)</td>
                 </tr>
             }
